@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-05-27 19:27:26 UTC",
+  "total_requests": 5,
+  "error_rate": "20.0%",
+  "status_codes": {
+    "200": 3,
+    "404": 1,
+    "429": 1
+  },
+  "top_endpoints": {
+    "/api/users": 2,
+    "/api/missing": 1,
+    "/api/login": 1
+  },
+  "health_status": "\ud83d\udfe2 HEALTHY"
+}
