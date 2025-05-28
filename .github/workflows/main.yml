@@ -1,0 +1,33 @@
+name: Stats
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Cada 6 horas (cron solo acepta 5 campos)
+  workflow_dispatch:  # Permite ejecución manual
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Run script
+        run: python ./generar_reporte.py
+      
+      - name: Commit and Push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update stats
+          commit_user_name: Andry Diego [GitHub Actions]
+          commit_user_email: 4ndrynho.7.7@gmail.com
+          commit_author: Limense <4ndrynho.7.7@gmail.com>
