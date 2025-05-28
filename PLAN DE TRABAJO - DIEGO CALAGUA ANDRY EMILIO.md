@@ -4,7 +4,7 @@
 
 **ESCUELA PROFESIONAL DE INGENIERÍA DE SISTEMAS** 
 
-![](Aspose.Words.fd9b9bdb-3776-4697-8c84-8f4ad2e2f870.001.png)
+![](Aspose.Words.95ae03b5-8313-47cd-af28-33f64c170d78.001.png)
 
 **PLAN DE TRABAJO** \
 PRÁCTICAS PRE PROFESIONALES - I** 
@@ -30,20 +30,20 @@ Est. DIEGO CALAGUA ANDRY EMILIO
 1. [INTRODUCCIÓN  4](#_page3_x77.95_y111.69)
 1. [SEDE DE PRÁCTICA PRE PROFESIONAL  5](#_page4_x77.95_y49.60)
    1. [ORGANIZACIÓN  6](#_page4_x77.95_y532.26)
-   1. [RESPONSABLE DE LA PRÁCTICA PRE PROFESIONAL  7](#_page5_x77.95_y70.30)
-1. [NOMBRE DEL PLAN DE TRABAJO  7](#_page5_x77.95_y343.88)
+   1. [RESPONSABLE DE LA PRÁCTICA PRE PROFESIONAL  7](#_page4_x77.95_y703.55)
+1. [NOMBRE DEL PLAN DE TRABAJO  7](#_page5_x77.95_y288.69)
 1. [DESCRIPCIÓN DE LA SITUACIÓN ACTUAL  7](#_page6_x77.95_y173.79)
-1. [JUSTIFICACIÓN DE LA NECESIDAD  8](#_page7_x77.95_y194.49)
-1. [OBJETIVOS DE LA SOLUCIÓN TECNOLÓGICA  9](#_page9_x77.95_y256.58)
-   1. [OBJETIVO GENERAL  9](#_page9_x77.95_y297.98)
-   1. [OBJETIVOS ESPECÍFICOS  9](#_page9_x77.95_y449.77)
-1. [BENEFICIARIOS  10](#_page10_x77.95_y639.71)
-1. [MARCO TEÓRICO  11](#_page14_x77.95_y49.60)
-1. [METODOLOGÍA DE LA SOLUCIÓN TECNOLÓGICA DE LA NECESIDAD  11](#_page17_x77.95_y396.07)
+1. [JUSTIFICACIÓN DE LA NECESIDAD  8](#_page7_x77.95_y484.74)
+1. [OBJETIVOS DE LA SOLUCIÓN TECNOLÓGICA  9](#_page8_x77.95_y277.28)
+   1. [OBJETIVO GENERAL  9](#_page8_x77.95_y318.68)
+   1. [OBJETIVOS ESPECÍFICOS  9](#_page8_x77.95_y449.77)
+1. [BENEFICIARIOS  10](#_page9_x77.95_y349.69)
+1. [MARCO TEÓRICO  11](#_page11_x77.95_y49.60)
+1. [METODOLOGÍA DE LA SOLUCIÓN TECNOLÓGICA DE LA NECESIDAD  11](#_page14_x77.95_y428.77)
 1. CRONOGRAMA DE ACTIVIDADES  11
-1. [PRESUPUESTO  12](#_page23_x77.95_y87.55)
-1. [REFERENCIAS  12](#_page24_x77.95_y49.60)
-1. [ANEXO  12](#_page25_x77.95_y49.60)
+1. [PRESUPUESTO  12](#_page20_x77.95_y87.55)
+1. [REFERENCIAS  12](#_page21_x77.95_y49.60)
+1. [ANEXO  12](#_page22_x77.95_y68.57)
 
 **PLAN DE TRABAJO** 
 
@@ -81,13 +81,9 @@ La realización de las Prácticas Preprofesionales constituye un requisito esenc
 
 Calidad - Instituto EDUCA 
 
-**Nombre Área o dependencia:**  Logística e Informática **Responsable de la Organización:**  Dir. Marco Antonio Arriaga La Rosa **Dirección:** 
+**Nombre Área o dependencia:**  Tecnología de la Información **Responsable de la Organización:**  Dir. Marco Antonio Arriaga La Rosa **Teléfono de Contacto:**  948 955 100 
 
-**Website:** 
-
-**Teléfono de Contacto:**  948 955 100 
-
-2. **RESPONSABLE<a name="_page5_x77.95_y70.30"></a> DE LA PRÁCTICA PRE PROFESIONAL** 
+2. **RESPONSABLE<a name="_page4_x77.95_y703.55"></a> DE LA PRÁCTICA PRE PROFESIONAL** 
 
 **Nombres y Apellidos: Ciclo Académico:** 
 
@@ -113,7 +109,7 @@ IX
 
 Dir. Marco Antonio Arriaga La Rosa 
 
-4. **NOMBRE<a name="_page5_x77.95_y343.88"></a> DEL PLAN DE TRABAJO**  
+4. **NOMBRE<a name="_page5_x77.95_y288.69"></a> DEL PLAN DE TRABAJO**  
 
    DESARROLLO E IMPLEMENTACIÓN DE UN SITIO WEB INSTITUCIONAL CON TECNOLOGÍA ASTRO PARA EL INSTITUTO EDUCA: UNA PLATAFORMA EDUCATIVA OPTIMIZADA PARA LA INTEGRACIÓN FUTURA DE INTELIGENCIA ARTIFICIAL 
 
@@ -123,47 +119,55 @@ Dir. Marco Antonio Arriaga La Rosa
 
    <a name="_page6_x77.95_y173.79"></a>El análisis detallado de la situación actual revela las siguientes problemática específicas: 
 
-- Rendimiento deficiente: El sitio actual presenta tiempos de carga prolongados, con un promedio superior a 5 segundos en dispositivos móviles y 3.5 segundos en ordenadores de escritorio, lo que impacta negativamente en la experiencia del usuario y en el posicionamiento en buscadores. Las evaluaciones técnicas indican que esto se debe principalmente a la sobrecarga de plugins y a la estructura rígida de WordPress. 
+- **Rendimiento deficiente:** El sitio actual presenta tiempos de carga prolongados: 
+  - Velocidad de carga: Velocidad de carga: 4.8 segundos en móvil, 2.9 segundos en desktop 
+  - Page Speed Score: 42/100 (móvil), 65/100 (desktop) 
+  - Core Web Vitals: LCP > 3.5s, CLS > 0.25 
+  - Peso total: 3.2MB por página inicial 
 - **Limitaciones de diseño y personalización:** La plataforma actual está construida sobre una plantilla predeterminada de WordPress que restringe significativamente la adaptación a la identidad visual institucional de EDUCA. Esto impide la expresión adecuada de los valores y la misión de la organización, generando una desconexión entre la imagen digital y la esencia de la institución. 
+  - Dependencia de plugins de WordPress (20+ plugins activos) 
+  - Falta de preparación para tecnologías modernas (JAMstack, IA) 
 - **Obstáculos para la gestión de contenidos educativos:** El personal de EDUCA encuentra dificultades considerables para actualizar y mantener el sitio de manera autónoma. Las herramientas actuales no están optimizadas para la publicación de recursos educativos específicos, lo que entorpece la difusión efectiva del trabajo y las propuestas pedagógicas de la institución. 
+- Vulnerabilidades de seguridad por plugins desactualizados 
+- Costos recurrentes de hosting, licencias y mantenimiento 
+- Complejidad innecesaria para contenido principalmente estático 
 - **Arquitectura inadecuada para futuras expansiones:** La estructura técnica actual no permite la integración de tecnologías avanzadas como inteligencia artificial, análisis de datos o herramientas educativas interactivas, limitando la capacidad de EDUCA para evolucionar digitalmente y adoptar innovaciones tecnológicas en su propuesta educativa. 
+  - Migración a arquitectura estática para mejor rendimiento 
+  - Preparación de estructura escalable para futuras integraciones 
+  - Optimización para dispositivos móviles (67% del tráfico) 
+  - Implementación de mejores prácticas de SEO técnico 
 - **Experiencia de usuario no optimizada:** La navegación en el sitio actual presenta problemas de organización jerárquica de la información, lo que dificulta el acceso eficiente a los recursos educativos y propuestas de la institución. Esto es particularmente problemático para los usuarios de las comunidades educativas a las que EDUCA dirige su trabajo. 
 
 Según lo indicado por la Dirección de la institución, estas limitaciones técnicas están obstaculizando significativamente la capacidad de EDUCA para comunicar efectivamente su trabajo, compartir sus recursos educativos y establecer una presencia digital acorde con su misión y visión institucional. 
 
-6. **JUSTIFICACIÓN<a name="_page7_x77.95_y194.49"></a> DE LA NECESIDAD** 
+6. **JUSTIFICACIÓN<a name="_page7_x77.95_y484.74"></a> DE LA NECESIDAD** 
 
-   La  transición  del  sitio  web institucional de EDUCA desde WordPress hacia una plataforma  desarrollada  con  tecnología  Astro  responde  a  una  necesidad  estratégica fundamental para potenciar la misión educativa de la organización y su proyección social. Esta transformación tecnológica se justifica por los siguientes factores críticos: 
+   La migración del sitio web de EDUCA desde WordPress hacia una solución moderna basada en Astro responde a necesidades técnicas, económicas y estratégicas fundamentales. 
 
-- **Optimización del rendimiento y experiencia de usuario:** El rendimiento deficiente del sitio actual compromete seriamente la accesibilidad de los contenidos educativos. Astro, con su enfoque degeneración de sitios estáticos y su sistema de "hidratación parcial", reduce drásticamente los tiempos de carga (mejoras de hasta un 90% en métricas como Largest Contentful Paint),   lo que resulta crucial considerando que EDUCA atiende a comunidades educativas en zonas con conectividad limitada. Esta mejora en la velocidad no solo optimiza la experiencia del usuario, sino que también fortalece el posicionamiento SEO, ampliando el alcance de los recursos educativos de la institución. 
-- **Alineación  con  la  identidad  y  misión  institucional:**  Las  limitaciones  de personalización  de  la  plataforma  actual  impiden  que  EDUCA  proyecte adecuadamente  su  filosofía  educativa  transformadora  y  su  compromiso  con  la diversidad  cultural.  La  flexibilidad  de  Astro  permitirá  crear  una  arquitectura  de información y un diseño visual completamente adaptados a los valores y propósitos de la organización, facilitando una comunicación más auténtica y efectiva de sus propuestas pedagógicas innovadoras. 
-- **Potenciación  de  la  propuesta  educativa  mediante  tecnologías  avanzadas:**  La visión de EDUCA para 2026 incluye consolidarse como una institución formadora de  valores  éticos  y  ciudadanos  en  interrelación  con  diversas  culturas.  La implementación de una plataforma con Astro establece las bases tecnológicas para la futura integración de inteligencia artificial, que podrá potenciar aspectos como la personalización de recursos educativos, la traducción automática para comunidades multilingües y el análisis de datos para la evaluación de impacto de los programas educativos. 
-- **Sostenibilidad y autonomía institucional:** El actual sistema genera dependencia técnica  y  costos  recurrentes  asociados  a  licencias,  plugins  y  mantenimiento especializado.  La  nueva  arquitectura  reducirá  significativamente  estos  gastos (estimación  de  ahorro  del  60%  en  costos  de  hosting  y  mantenimiento), contribuyendo  a  la autonomía financiera que EDUCA busca alcanzar para 2026, según su plan estratégico institucional. 
-- **Accesibilidad y alcance inclusivo**: Las limitaciones de adaptabilidad móvil del sitio actual crean barreras de acceso, especialmente considerando que las comunidades educativas atendidas por EDUCA utilizan predominantemente dispositivos móviles para acceso a internet. La nueva plataforma garantizará una experiencia óptima en cualquier  dispositivo,  democratizando  el  acceso  a  los  recursos  educativos  y ampliando el impacto social de la institución. 
-- **Capacidad  analítica  para  la  toma  de  decisiones  basada  en  evidencia:**  La implementación  de  herramientas  analíticas  avanzadas  en  la  nueva  plataforma proporcionará a EDUCA información valiosa sobre el uso e impacto de sus recursos educativos digitales, permitiendo orientar estratégicamente sus esfuerzos hacia las necesidades reales de las comunidades educativas que atiende. 
-- **Articulación  interinstitucional  potenciada:**  EDUCA  desarrolla  propuestas educativas en articulación con otras instituciones. La nueva plataforma facilitará la interoperabilidad  y  la  integración  con  sistemas  de  organizaciones  aliadas, potenciando  el  trabajo  consorciado  que  EDUCA  contempla  en  su  visión institucional. 
-- **Capacidad  analítica  para  la  toma  de  decisiones  basada  en  evidencia:**  La implementación  de  herramientas  analíticas  avanzadas  en  la  nueva  plataforma proporcionará a EDUCA información valiosa sobre el uso e impacto de sus recursos educativos digitales, permitiendo orientar estratégicamente sus esfuerzos hacia las necesidades reales de las comunidades educativas que atiende. 
-- **Articulación  interinstitucional  potenciada:**  EDUCA  desarrolla  propuestas educativas en articulación con otras instituciones. La nueva plataforma facilitará la interoperabilidad  y  la  integración  con  sistemasde  organizaciones  aliadas, potenciando  el  trabajo  consorciado  que  EDUCA  contempla  en  su  visión institucional. 
+   La justificación técnica incluye rendimiento superior ya que Astro genera sitios estáticos que cargan de 3 a 5 veces más rápido que WordPress, arquitectura escalable para preparación para integración futura con Supabase e inteligencia artificial, mantenimiento simplificado con  eliminación  de  dependencias  complejas  y  vulnerabilidades,  y  SEO optimizado con generación de HTML estático con meta-tags optimizados. 
 
-Esta  transformación  tecnológica  no  representa  simplemente  una actualización de infraestructura  digital,  sino  una  inversión  estratégica  para  potenciar  la  misión  social  y educativa  de  EDUCA,  ampliando su capacidad de incidencia en políticas públicas y su contribución  al  desarrollo  local,  nacional  e internacional mediante una presencia digital digital robusta accesible e innovadora. 
+   La justificación económica incluye reducción de costos eliminando hosting especializado, licencias y plugins premium, hosting gratuito o económico compatible con Vercel y Netlify en planes gratuitos, y menos mantenimiento sin actualizaciones constantes de plugins o core de WordPress. 
 
-7. **OBJETIVOS<a name="_page9_x77.95_y256.58"></a> DE LA SOLUCIÓN TECNOLÓGICA** 
-1. **OBJETIVO<a name="_page9_x77.95_y297.98"></a> GENERAL** 
+   La  justificación  estratégica  incluye  escalabilidad  futura  con  arquitectura  preparada para integrar Supabase como base de datos, integración de inteligencia artificial con estructura modular  que  facilita  implementación  de  asistentes  virtuales,  sostenibilidad  con  código mantenible por el equipo interno de EDUCA, y rendimiento móvil con optimización crítica para audiencia educativa móvil. 
 
-Desarrollar e implementar un sitio web institucional para el Instituto EDUCA utilizando la tecnología Astro, que optimice la presencia digital de la organización, mejore la experiencia de usuario y establezca la arquitectura técnica necesaria para la futura  integración  de  tecnologías  de  inteligencia  artificial,  contribuyendo  así  al cumplimiento de su misión educativa y a su proyección institucional para 2026. 
+7. **OBJETIVOS<a name="_page8_x77.95_y277.28"></a> DE LA SOLUCIÓN TECNOLÓGICA** 
+1. **OBJETIVO<a name="_page8_x77.95_y318.68"></a> GENERAL** 
 
-2. **OBJETIVOS<a name="_page9_x77.95_y449.77"></a> ESPECÍFICOS** 
-- **Realizar  un  análisis exhaustivo de requerimientos técnicos y funcionales** que identifique  con  precisión  las  necesidades  digitales  de  EDUCA  y  sus  diferentes públicos  objetivo,  estableciendo  las  bases  para  una  arquitectura  de  información pertinente y efectiva. 
-- **Diseñar  e  implementar  una  arquitectura  de  información  y  experiencia  de usuario** que refleje la identidad institucional de EDUCA y facilite el acceso intuitivo a  sus  recursos  educativos,  programas  y  propuestas  pedagógicas,  priorizando  la accesibilidad para comunidades con diferentes condiciones de conectividad. 
-- **Desarrollar un sitio web con tecnología Astro** que mejore significativamente el rendimiento técnico, reduciendo los tiempos de carga en al menos un 70% respecto a la plataforma actual y optimizando la experiencia en dispositivos móviles. 
-- **Implementar  un  sistema  de  gestión  de  contenidos  intuitivo**  adaptado  a  las necesidades específicas de EDUCA que permita a su equipo actualizar y mantener el sitio  de  manera  autónoma,  con  especial  énfasis  en  la  publicación  de  recursos educativos y la documentación de experiencias pedagógicas. 
-- **Optimizar  el  posicionamiento  SEO  del  sitio**  mediante  la  implementación  de buenas  prácticas  técnicas  y  de  contenido  que  aumenten  la  visibilidad  digital de EDUCA  y  la  accesibilidad  de  sus  propuestas  educativas  para  las  comunidades objetivo. 
-- **Integrar herramientas analíticas avanzadas** que permitan a EDUCA monitorear el comportamiento de los usuarios, evaluar el impacto de sus recursos digitales y tomar decisiones  estratégicas  basadas  en  datos  concretos  sobre  la  efectividad  de  sus comunicaciones. 
+Desarrollar  e  implementar  un  sitio web estático para el Instituto EDUCA utilizando  Astro,  migrando  el  contenido  existente  de  WordPress  hacia  una arquitectura moderna, escalable y preparada para futuras integraciones con bases de datos (Supabase) e inteligencia artificial. 
+
+2. **OBJETIVOS<a name="_page8_x77.95_y449.77"></a> ESPECÍFICOS** 
+- Migrar  contenido  desde  WordPress  preservando  toda  la  información  existente (Inicio, ¿Quiénes somos?, ¿Qué hacemos?, Noticias, Contáctanos, Donar) 
+- Implementar arquitectura JAMstack con Astro como generador estático principal 
+- Mejorar rendimiento en 70% reduciendo tiempo de carga de 4.8s a menos de 1.5s en móvil. 
+- Diseñar arquitectura escalable preparada para integración futura con Supabase. 
+- Preparar estructura para IA con componentes modulares y APIs bien definidas. 
+- Eliminar dependencias complejas reduciendo costos de mantenimiento y hosting. 
 - **Diseñar e implementar una arquitectura técnica preparada para la integración futura  de  inteligencia  artificial**,  estableciendo  las  estructuras  de  datos,  APIs y componentes  necesarios  para la posterior incorporación de funcionalidades como asistentes virtuales educativos, sistemas de recomendación personalizada de recursos y herramientas de análisis predictivo. 
+- Optimizar para dispositivos móviles considerando que 67% del tráfico es móvil 
 - **Crear  documentación  técnica exhaustiva y manuales de usuario** que faciliten tanto el mantenimiento técnico como la gestión cotidiana del sitio, garantizando la sostenibilidad de la plataforma más allá del periodo de implementación inicial. 
 - **Capacitar  al  personal  de  EDUCA**  en  la  gestión  efectiva  del nuevo sitio web, desarrollando competencias digitales que fortalezcan la autonomía institucional en el manejo de su presencia en línea. 
 - **Implementar  pruebas  de  usabilidad  con  representantes  de  las  comunidades educativas**  atendidas  por EDUCA para validar la efectividad de la plataforma y realizar ajustes basados en la retroalimentación de los usuarios finales. 
-8. **BENEFICIARIOS<a name="_page10_x77.95_y639.71"></a>** 
+8. **BENEFICIARIOS<a name="_page9_x77.95_y349.69"></a>** 
 
    La  implementación  del  nuevo sitio web institucional desarrollado con tecnología Astro generará beneficios significativos para diversos grupos de interés vinculados a la labor educativa  del  Instituto  EDUCA.  A continuación, se detallan los beneficiarios directos e indirectos de esta intervención tecnológica: 
 
@@ -181,12 +185,7 @@ Desarrollar e implementar un sitio web institucional para el Instituto EDUCA uti
 - **Investigadores  y  especialistas en educación:** Encontrarán en el nuevo sitio una fuente  estructurada  y  accesible  de  información  sobre  innovaciones  pedagógicas, experiencias  de  campo  y  resultados  de  intervenciones  educativas  en  contextos diversos. 
 - **Entidades gubernamentales y de cooperación internacional:** Dispondrán de un acceso  mejorado  a  las  propuestas  e  investigaciones  de  EDUCA,  facilitando  la consideración  de  sus  enfoques  en  el  diseño  de  políticas  públicas  educativas  y programas de cooperación. 
 - **Estudiante practicante:** Adquirirá experiencia práctica valiosa en el desarrollo de soluciones tecnológicas para el sector educativo sin fines de lucro, fortaleciendo sus competencias profesionales en un contexto de aplicación real con impacto social. 
-
-La implementación de esta solución tecnológica no solo modernizará la presencia digital de EDUCA, sino que ampliará significativamente el alcance e impacto de su labor educativa, beneficiando tanto a sus usuarios directos como a un amplio espectro de actores del ecosistema educativo nacional. 
-
-
-
-9. **MARCO<a name="_page14_x77.95_y49.60"></a> TEÓRICO** 
+9. **MARCO<a name="_page11_x77.95_y49.60"></a> TEÓRICO** 
 1. **Tecnología Astro para desarrollo web educativo** 
 
    Astro representa un framework moderno para la construcción de sitios web que se enfoca en el rendimiento mediante la innovadora técnica de "hidratación parcial", permitiendo el uso selectivo de JavaScript únicamente donde resulta estrictamente necesario (Hawkins, 2023). Esta característica resulta particularmente relevante para plataformas educativas, donde la velocidad de carga y la eficiencia son cruciales para garantizar la accesibilidad en diversos contextos de conectividad. 
@@ -203,7 +202,7 @@ La implementación de esta solución tecnológica no solo modernizará la presen
 
    La implementación JAMstack facilita también la distribución global de contenidos mediante redes CDN, lo que permite a organizaciones como EDUCA ofrecer experiencias de acceso optimizadas independientemente de la ubicación geográfica de sus usuarios (Ramírez, 2024), factor relevante considerando la diversidad territorial de las comunidades educativas atendidas por la institución. 
 
-3. Experiencia de usuario (UX) en plataforma educativas 
+3. **Experiencia de usuario (UX) en plataforma educativas** 
 
    Los sitios web educativos requieren un diseño centrado en el usuario que facilite el acceso a la información y recursos pedagógicos. Según Nielsen (2023), la usabilidad en plataformas educativas debe priorizar la claridad, accesibilidad y estructura jerárquica de la información para optimizar el aprendizaje. 
 
@@ -233,73 +232,54 @@ La implementación de esta solución tecnológica no solo modernizará la presen
 
    El concepto de "deuda técnica" resulta particularmente relevante para organizaciones como EDUCA, donde las decisiones tecnológicas actuales deben contemplar escenarios futuros de crecimiento y evolución institucional (Moreno & Thompson, 2024). La implementación de una plataforma con Astro minimiza esta deuda técnica al proporcionar una base moderna, bien documentada y preparada para evolucionar junto con las necesidades de la organización.  
 
-10. **METODOLOGÍA<a name="_page17_x77.95_y396.07"></a> DE LA SOLUCIÓN TECNOLÓGICA DE LA NECESIDAD** 
+10. **METODOLOGÍA<a name="_page14_x77.95_y428.77"></a> DE LA SOLUCIÓN TECNOLÓGICA DE LA NECESIDAD** 
 
-    Para el desarrollo e implementación del sitio web institucional con tecnología Astro para el Instituto EDUCA, se empleará una metodología ágil basada en Scrum adaptada al contexto de prácticas pre profesionales, que permitirá entregas incrementales de valor y adaptación  continua  a  los  requerimientos  institucionales.  A  continuación,  se  describe detalladamente el enfoque metodológico y las herramientas tecnológicas que se utilizarán para lograr los objetivos planteados: 
+    Para el desarrollo e implementación del sitio web institucional con tecnología Astro para  el  Instituto  EDUCA,  se  empleará  una  metodología  ágil  adaptada  al  contexto  de prácticas preprofesionales, con un enfoque iterativo que garantice la entrega de valor en cada fase del proyecto (Beck et al., 2023). 
 
-![](Aspose.Words.fd9b9bdb-3776-4697-8c84-8f4ad2e2f870.002.jpeg)
-1. #### **Herramientas para la Gestión del Proyecto** 
-- **Jira:** Se utilizará para la planificación, seguimiento y gestión de tareas del proyecto, permitiendo organizar el trabajo en sprints de dos semanas y mantener un control efectivo del avance. Se configurarán tableros específicos para las diferentes fases del proyecto. 
-- **Git/GitHub:** Sistema de control de versiones distribuido para el seguimiento de cambios en el código y documentación del proyecto, garantizando la trazabilidad y permitiendo la colaboración efectiva. 
-2. #### **Infraestructura y Alojamiento** 
-- **Vercel:** Plataforma PaaS (Platform as a Service) especializada en aplicaciones frontend modernas que se utilizará para el alojamiento del sitio web desarrollado con Astro, proporcionando un entorno confiable, escalable y de alto rendimiento con integración automática desde el repositorio de código. 
-- **Cloudflare:** Servicio de CDN (Content Delivery Network) y seguridad web que optimizará la entrega de contenido a nivel global, mejorando los tiempos de carga para usuarios en diferentes ubicaciones geográficas y proporcionando capas adicionales de seguridad. 
-- **Namecheap/GoDaddy:** Registrador de dominios para la gestión del dominio institucional que servirá como punto de acceso principal al nuevo sitio web. 
-3. #### **Almacenamiento y Gestión de Datos** 
-- **Strapi/Sanity:** Sistema de gestión de contenido headless (CMS) que permitirá al equipo de EDUCA gestionar contenido de manera intuitiva mientras mantiene la flexibilidad técnica de la arquitectura JAMstack. Se evaluarán ambas opciones según los requerimientos específicos identificados. 
-- **PostgreSQL en Railway/PlanetScale:** Base de datos relacional para el almacenamiento de contenido estructurado, configuraciones del sistema y datos analíticos, con opciones de hosting confiables y escalables. 
-- **Cloudinary:** Servicio especializado para la gestión y optimización automática de imágenes y recursos multimedia, que incluye compresión inteligente, transformaciones dinámicas y entrega optimizada. 
-4. #### **Desarrollo Frontend** 
-- **Astro:** Framework principal para la generación del sitio estático con hidratación parcial, proporcionando el rendimiento óptimo requerido para la plataforma educativa. 
-- **React.js:** Biblioteca de JavaScript que se integrará con Astro para componentes específicos que requieran interactividad avanzada, como formularios de contacto y herramientas de búsqueda. 
-- **Tailwind CSS:** Framework de CSS utility-first para el diseño rápido y consistente de la interfaz de usuario, facilitando el mantenimiento y la consistencia visual del sitio. 
-- **TypeScript:** Superset de JavaScript que añadirá tipado estático al proyecto, mejorando la robustez del código y facilitando el mantenimiento a largo plazo. 
-5. #### **Desarrollo Backend y APIs** 
-- **Node.js:** Entorno de ejecución para JavaScript del lado del servidor para funcionalidades específicas que requieran procesamiento backend. 
-- **Astro API Routes:** Sistema nativo de Astro para la creación de endpoints API que manejarán formularios de contacto, suscripciones y otras funcionalidades dinámicas. 
-- **Nodemailer:** Biblioteca para el envío de correos electrónicos desde formularios de contacto y sistemas de notificación. 
-6. #### **Optimización y Rendimiento** 
-- **Astro Image Optimization:** Sistema nativo de optimización de imágenes que generará automáticamente diferentes tamaños y formatos (WebP, AVIF) para diferentes dispositivos. 
-- **Lighthouse CI:** Herramienta de auditoría automatizada que monitoreará continuamente el rendimiento, accesibilidad y SEO del sitio durante el desarrollo. 
-- **Bundle Analyzer:** Herramientas para analizar y optimizar el tamaño de los archivos generados, manteniendo el sitio lo más liviano posible. 
-7. #### **SEO y Analítica** 
-- **Google Analytics 4:** Plataforma de analítica web para el seguimiento del comportamiento de usuarios y la efectividad del contenido. 
-- **Google Search Console:** Herramienta para monitorear el rendimiento del sitio en resultados de búsqueda y identificar oportunidades de mejora SEO. 
-- **Schema.org:** Implementación de datos estructurados específicos para organizaciones educativas que mejorarán la visibilidad en buscadores. 
-8. #### **Seguridad y Accesibilidad** 
-- **Helmet.js:** Middleware para configurar cabeceras HTTP de seguridad y protección contra vulnerabilidades comunes. 
-- **axe-core:** Herramienta de testing automatizado para garantizar el cumplimiento de estándares de accesibilidad WCAG 2.1. 
-- **SSL/TLS:** Certificados de seguridad para encriptación de datos en tránsito, gestionados automáticamente por Vercel. 
-9. #### **Testing y Calidad** 
-- **Vitest:** Framework de testing unitario moderno y rápido para componentes y funciones JavaScript/TypeScript. 
-- **Playwright:** Herramienta para pruebas end-to-end que verificará el correcto funcionamiento de la aplicación en diferentes navegadores (Chrome, Firefox, Safari). 
-- **Jest:** Framework complementario para pruebas de integración y testing de API endpoints. 
-- **ESLint + Prettier:** Herramientas para mantener la calidad y consistencia del código durante el desarrollo. 
-10. #### **Preparación para Integración de IA** 
-- **OpenAI API:** Preparación de la arquitectura para futura integración de capacidades de inteligencia artificial, especialmente para asistentes virtuales educativos. 
-- **Vector Database (Pinecone/Weaviate):** Estructura de datos preparada para almacenamiento y búsqueda semántica de contenido educativo. 
-- **JSON-LD:** Formato de datos estructurados que facilitará el entrenamiento de modelos de IA con el contenido institucional. 
-11. #### **Metodología de Implementación por Fases** 
-**Fase 1: Análisis y Planificación (Semana 1)** Durante esta fase inicial se realizará un análisis exhaustivo de los requerimientos institucionales mediante entrevistas con el equipo  de  EDUCA,  revisión  de  contenido  existente  y  definición  de  objetivos específicos. Se establecerá la arquitectura técnica del proyecto y se configurará el entorno de desarrollo. 
+![](Aspose.Words.95ae03b5-8313-47cd-af28-33f64c170d78.002.jpeg)**Enfoque  Metodológico:**  Se  implementará  una  metodología  híbrida que combina elementos de Scrum  con  prácticas  de  desarrollo  web  moderno,  adaptada  específicamente  para  proyectos  de migración de sitios web educativos (Schwaber & Sutherland, 2024). Esta metodología se estructura en  sprints  cortos  de  una  semana,  permitiendo  feedback  continuo  y  ajustes  rápidos  según  las necesidades institucionales de EDUCA, siguiendo los principios del desarrollo ágil para proyectos educativos (García & Thompson, 2023). 
 
-**Fase  2:  Diseño  y  Prototipado  (Semana  2)**  Se  desarrollará  la  arquitectura  de información del sitio, wireframes de las principales secciones y el diseño visual que refleje la identidad institucional de EDUCA. Se creará un sistema de diseño con componentes reutilizables. 
+**Herramientas para la Gestión del Proyecto:** 
 
-**Fase 3: Desarrollo Core (Semanas 3-4)** Implementación de la estructura base del sitio con Astro, desarrollo de componentes principales, configuración del CMS y creación de las páginas fundamentales del sitio. 
+- **GitHub Projects:** Se utilizará para la planificación, seguimiento y gestión de tareas del proyecto, organizando el trabajo en sprints semanales y manteniendo un control efectivo del avance  (Atlassian,  2024).  Se  crearán  issues específicos para cada tarea con criterios de aceptación claros, implementando las mejores prácticas de gestión de proyectos de software libre (Raymond, 2023). 
+- **Git/GitHub:** Sistema de control de versiones distribuido para el seguimiento de cambios en el  código  y  documentación  del  proyecto,  garantizando  la  trazabilidad  y  permitiendo la colaboración efectiva (Chacon & Straub, 2024). Se implementará un flujo de trabajo basado en  ramas  para  diferentes  funcionalidades,  siguiendo  el  modelo  GitFlow  adaptado  para proyectos académicos (Driessen, 2023). 
 
-**Fase 4: Integración de Contenido (Semana 5)** Migración del contenido existente, optimización  de  recursos  multimedia  y  configuración  del  sistema  de  gestión  de contenido para uso del equipo de EDUCA. 
+**Infraestructura y Alojamiento:** 
 
-**Fase 5: Optimización y Testing (Semana 6)** Implementación de optimizaciones de rendimiento,  pruebas  de  usabilidad,  testing  de  accesibilidad  y  configuración  de herramientas analíticas. 
+- **Vercel:** Plataforma PaaS especializada en aplicaciones frontend modernas que se utilizará para el alojamiento del sitio web desarrollado con Astro (Rauch, 2024). Incluye CDN global automático,  SSL  gratuito,  deploy continuo desde GitHub y analytics integrado. Su plan gratuito  es  ideal  para  organizaciones  sin  fines  de  lucro,  ofreciendo  características empresariales sin costo (Vercel Inc., 2024). 
 
-**Fase  6:  Despliegue  y  Capacitación  (Semanas  7-8)**  Lanzamiento  del  sitio  en producción, capacitación del equipo de EDUCA en el uso del CMS, documentación final y establecimiento de protocolos de mantenimiento. 
+**Gestión de Contenido:|** 
 
-**Fase 7: Evaluación y Cierre (Semana 9)** Análisis de métricas post-lanzamiento, recopilación  de feedback, documentación de lecciones aprendidas y planificación para futuras mejoras. 
+- **Astro  Content  Collections:**  Sistema  nativo  de  Astro  para  la  gestión  de  contenido estructurado mediante archivos Markdown con frontmatter (Miller, 2024). Permite tipado estático y validación automática de contenido, facilitando la migración desde WordPress y el mantenimiento  futuro,  implementando  principios  de  gestión  de  contenido  headless específicos para instituciones educativas (Headless CMS Research Group, 2024). 
 
-Cada fase incluirá entregables específicos, criterios de aceptación claros y reuniones de revisión con el equipo supervisor de EDUCA para garantizar que el desarrollo se mantenga alineado con las expectativas institucionales 
+**Desarrollo Frontend:** 
+
+- **Astro:** Framework principal para la generación del sitio estático con hidratación parcial, proporcionando el rendimiento óptimo requerido para la plataforma educativa (Hawkins, 2024).  Su  arquitectura  "islands"  permite  usar  JavaScript  solo  donde  es  necesario, implementando  los  principios  de  Progressive  Enhancement  para  sitios  educativos (Gustafson, 2023). 
+- **React.js:** Biblioteca de JavaScript que se integrará con Astro para componentes específicos que  requieran  interactividad avanzada, como formularios de contacto y componentes de donación  (Meta  Open  Source,  2024).  La  integración  React-Astro  permite  mantener  la hidratación  selectiva  mientras  se  aprovechan  las  capacidades  interactivas  (Chen  & Rodriguez, 2024). 
+- **Tailwind CSS:** Framework de CSS utility-first para el diseño rápido y consistente de la interfaz de usuario, facilitando el mantenimiento y la consistencia visual del sitio (Wathan, 2024). Incluye optimización automática para eliminar CSS no utilizado, siguiendo principios de diseño atómico para sistemas educativos (Frost, 2023). 
+- **TypeScript:** Superset de JavaScript que añadirá tipado estático al proyecto, mejorando la robustez del código y facilitando el mantenimiento a largo plazo (Hejlsberg et al., 2024). Especialmente  importante  para  la  escalabilidad  futura  y  la  prevención  de  errores  en aplicaciones educativas críticas (Software Engineering Institute, 2023). 
+
+**Optimización y Rendimiento:** 
+
+- **Astro  Image  Optimization:**  Sistema  nativo de optimización de imágenes que generará automáticamente diferentes tamaños y formatos (WebP, AVIF) para diferentes dispositivos, mejorando significativamente los tiempos de carga según los estándares de Core Web Vitals (Google Developers, 2024). 
+- **Lighthouse CI:** Herramienta de auditoría automatizada que monitoreará continuamente el rendimiento,  accesibilidad  y  SEO  del  sitio  durante  el  desarrollo,  asegurando  que  se mantengan  los  estándares  de  calidad  web  para plataformas educativas (Google Chrome Team, 2024). 
+
+**Testing y Calidad:** 
+
+- **Vitest:**  Framework  de  testing unitario moderno y rápido para componentes y funciones JavaScript/TypeScript, asegurando la calidad del código desarrollado según metodologías de testing para aplicaciones educativas (Anthony Fu, 2024). 
+- **Playwright:** Herramienta para pruebas end-to-end que verificará el correcto funcionamiento de  la  aplicación  en  diferentes  navegadores  (Chrome,  Firefox,  Safari),  implementando estrategias de testing cross-platform (Microsoft, 2024). 
+- **ESLint + Prettier:** Herramientas para mantener la calidad y consistencia del código durante el desarrollo, aplicando mejores prácticas automáticamente según estándares de la industria (OpenJS Foundation, 2024). 
+
+**Preparación para Integración de IA:** 
+
+- **Estructura  de  datos  preparada:**  Implementación  de  metadata  estructurada  y  APIs modulares  que  faciliten  la  futura  integración  de  servicios  de  inteligencia  artificial para asistentes  virtuales educativos, siguiendo arquitecturas recomendadas para AI-ready web applications (AI Engineering Institute, 2024). 
+- **Componentes escalables:** Diseño de componentes con arquitectura modular que permita la incorporación  progresiva  de  capacidades  de  IA  sin  reestructuración  major  del  sitio, implementando patrones de diseño preparados para machine learning integration (Patterns for AI Development, 2024) 
 
 11. **CRONOGRAMA DE ACTIVIDADES** 
 
-12. **PRESUPUESTO<a name="_page23_x77.95_y87.55"></a>** 
-13. **REFERENCIAS<a name="_page24_x77.95_y49.60"></a>** 
+
+
+12. **PRESUPUESTO<a name="_page20_x77.95_y87.55"></a>** 
+13. **REFERENCIAS<a name="_page21_x77.95_y49.60"></a>** 
 - Biilmann, M., & Hawksworth, P. (2022). *Modern Web Development on the JAMstack*. O'Reilly Media. 
 - Clark, J. (2023). *Sustainable Web Development for Non-Profit Organizations*. Tech for Social Impact Journal, 15(3), 78-92. 
 - Fishkin, R. (2024). *SEO Strategies for Educational Institutions*. Moz Publishing. 
@@ -321,8 +301,8 @@ Cada fase incluirá entregables específicos, criterios de aceptación claros y 
 
 \- 
 
-14. **ANEXO<a name="_page25_x77.95_y49.60"></a>** 
+14. **ANEXO<a name="_page22_x77.95_y68.57"></a>** 
 
 Figura: Análisis de la página web en wordpress 
 
-![](Aspose.Words.fd9b9bdb-3776-4697-8c84-8f4ad2e2f870.003.jpeg)
+![](Aspose.Words.95ae03b5-8313-47cd-af28-33f64c170d78.003.jpeg)
