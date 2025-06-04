@@ -1,0 +1,44 @@
+PROYECTO DE TESIS 
+Modelo de Aprendizaje Profundo para Predecir el Abandono Estudiantil en la Escuela de Educación Superior Pedagógica Privada CREA, 2025
+
+
+Planteamiento del Problema
+ Importancia del tema
+La deserción estudiantil en la educación superior genera costos bastante altos, tanto económicos como sociales, ya que representa una pérdida de inversión (tanto pública como privada) y reduce la cantidad de profesionales calificados que ingresan al mercado laboral [1]. Frente a este problema, los modelos de aprendizaje profundo (deep learning) han demostrado tener un gran potencial para analizar grandes cantidades de datos y detectar patrones complejos que ayudan a predecir con mayor precisión quiénes podrían abandonar los estudios, superando a muchas técnicas tradicionales [2], [3]. De hecho, algunos estudios recientes han logrado valores de F1-score por encima de 0.75 usando redes neuronales profundas para esta tarea [5]. Esto demuestra que las herramientas basadas en inteligencia artificial no solo pueden anticipar el abandono, sino que también permiten tomar acciones preventivas más personalizadas y oportunas, ayudando así a reducir la deserción y a mejorar la eficiencia del sistema educativo [4].
+ Contextualización internacional y nacional
+A nivel mundial, las tasas de abandono en la educación terciaria oscilan entre el 20 % y el 40 %, según la UNESCO, afectando especialmente a regiones con desigualdades socioeconómicas marcadas [17]. En América Latina, el problema es más severo: un análisis reciente reporta que hasta el 35 % de los estudiantes no completan sus estudios universitarios [20]. 
+En Perú, el Ministerio de Educación informa que aproximadamente el 23,2 % de los jóvenes menores de 30 años desertan de la universidad antes de titularse [20]. Estas cifras ponen en evidencia la urgencia de estrategias basadas en análisis de datos para anticipar y mitigar el abandono estudiantil [18].
+Argumentación de la situación problemática
+La Escuela de Educación Superior Pedagógica Privada CREA, ubicada en Breña, Lima—Perú, imparte la carrera de Educación Inicial, orientada a la formación de docentes de nivel preescolar. En dicha institución, los indicadores clave disponibles para el monitoreo del estudiante incluyen:
+Notas y rendimiento académico (promedio de cursos, créditos aprobados), reconocidos como predictores dominantes del abandono [16], [18].
+Asistencias a clase, donde el ausentismo crónico se asocia fuertemente con la deserción [18].
+Interacciones con servicios de apoyo estudiantil (tutorías, consejería), cuya frecuencia de uso refleja el nivel de soporte institucional recibido y su efecto protector frente al abandono [19].
+La literatura agrupa las causas de deserción en tres dimensiones interrelacionadas:
+Académicas: Bajo rendimiento, desajuste entre expectativas y currículo, metodologías de enseñanza poco participativas [16], [18].
+Socioeconómicas: Necesidad de trabajar concurrentemente, limitaciones financieras familiares, presiones laborales y familiares [16].
+Institucionales: Calidad y disponibilidad de servicios de apoyo, infraestructura y políticas de retención insuficientes [17].
+En la carrera de Educación Inicial de la EESPP CREA es frecuente que los estudiantes en riesgo combinen un bajo desempeño académico con presiones económicas y limitado acceso a apoyos institucionales, reproduciendo patrones identificados en otros estudios latinoamericanos [20]. Lo anterior justifica la aplicación de modelos de aprendizaje profundo que integren estas variables para mejorar la detección temprana de riesgo de abandono y guiar acciones de intervención focalizadas.
+Formulación del problema
+Problema General
+¿De qué manera el modelo de Aprendizaje Profundo mejora la predicción del abandono estudiantil en la Escuela de Educación Superior Pedagógica Privada CREA, 2025?
+Problemas Específicos
+¿En qué medida mejora el modelo de Aprendizaje Profundo el monitoreo de factores académicos asociados al abandono estudiantil en la Escuela de Educación Superior Pedagógica Privada CREA, 2025?
+¿Cómo el modelo de Aprendizaje Profundo mejora la identificación de factores socioeconómicos asociados al abandono estudiantil en la Escuela de Educación Superior Pedagógica Privada CREA, 2025?
+¿Cuál es la mejora del modelo de Aprendizaje Profundo en la detección de factores institucionales asociados al abandono estudiantil en la Escuela de Educación Superior Pedagógica Privada CREA, 2025?
+Objetivos
+Objetivo General
+Determinar de qué manera el modelo de Aprendizaje Profundo mejora la predicción del abandono estudiantil en la Escuela de Educación Superior Pedagógica Privada CREA, 2025.
+Objetivos especìficos 
+Demostrar en qué medida el modelo de Aprendizaje Profundo el monitoreo de factores académicos asociados al abandono estudiantil en la Escuela de Educación Superior Pedagógica Privada CREA, 2025.
+Demostrar cómo el modelo de Aprendizaje Profundo mejora la identificación de factores socioeconómicos asociados al abandono estudiantil en la Escuela de Educación Superior Pedagógica Privada CREA, 2025.
+Explicar cuál es la mejora del modelo de Aprendizaje Profundo en la detección de factores institucionales asociados al abandono estudiantil en la Escuela de Educación Superior Pedagógica Privada CREA, 2025.
+Justificación
+Justificación Teórica
+El abandono estudiantil en la educación superior constituye un fenómeno multifactorial que impacta negativamente tanto a nivel individual como institucional. Factores como la falta de recursos económicos, la presión académica y la desmotivación personal son determinantes en la decisión de los estudiantes de interrumpir sus estudios. Según un estudio realizado en Ecuador, cerca del 40% de los estudiantes universitarios abandonan sus carreras antes de concluirlas, siendo los factores socioeconómicos y académicos los más influyentes [21]. Asimismo, investigaciones en México destacan la importancia de fortalecer el apoyo académico y socioemocional para reducir las tasas de deserción [22]. Estos hallazgos subrayan la necesidad de implementar estrategias integrales que aborden las diversas causas del abandono estudiantil en la educación superior.
+Justificación Metodológica
+Este estudio busca crear un modelo que ayude a predecir qué estudiantes podrían dejar la carrera, usando técnicas de inteligencia artificial más avanzadas. Diversos estudios han demostrado la eficacia de modelos de aprendizaje profundo en la predicción del abandono estudiantil. Por ejemplo, el modelo CONV-LSTM, que combina redes neuronales convolucionales (CNN) y redes de memoria a largo plazo (LSTM), ha mostrado una alta precisión al analizar datos de cursos en línea masivos (MOOC) [23]. Asimismo, el modelo LBDL (Learning Behavior Feature Fused Deep Learning Network) integra características de comportamiento de aprendizaje y ha logrado mejorar significativamente la precisión en la predicción de la deserción en entornos de aprendizaje en línea [24]. Además, el modelo CLSA, que incorpora CNN, Bi-LSTM y mecanismos de atención estática, ha sido eficaz en la clasificación y predicción del abandono en plataformas educativas digitales [25].
+La idea es poder identificar a tiempo a los estudiantes que están en riesgo y tomar medidas preventivas, siguiendo métodos que ya han funcionado bien en otras instituciones educativas [27], [29].
+Justificación Práctica
+En Perú, este fenómeno ha crecido, sobre todo tras la pandemia [30]. Estudios muestran que la aplicación de modelos de inteligencia artificial, como las redes neuronales profundas, ha mejorado significativamente la predicción del abandono estudiantil, superando técnicas tradicionales [26], [28].
+Los resultados van a beneficiar directamente a la Escuela de Educación Superior Pedagógica Privada CREA, ya que harán más fácil que los tutores y autoridades puedan intervenir a tiempo cuando un estudiante lo necesite. También va a ayudar a que más alumnos se queden y terminen la carrera de Educación Inicial. A nivel de la institución, este sistema se podría aplicar en otras escuelas de formación docente. Para los estudiantes, significa tener más apoyo y mejores oportunidades para continuar sus estudios [31].
+
